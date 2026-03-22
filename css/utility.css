@@ -1,0 +1,37 @@
+/*header*/
+.header {
+  width: 100vw;
+  height: 84px;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--black);
+  z-index: 9999;
+  position: fixed;
+}
+
+.header-inner {
+  width: var(--max-width);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-inner .header-selectors {
+  width: 248px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .language-selector {
+  width: 54px;
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  color: #d9d9d9;
+}
+
+.header-menu {
+  font-size: 14px;
+  font-weight: 700;
+}
