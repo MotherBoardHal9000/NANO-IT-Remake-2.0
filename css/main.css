@@ -286,7 +286,7 @@ canvas {
   width: var(--max-width);
   max-width: var(--max-width);
   padding-top: 740px;
-  height: 3120px;
+  height: 3220px;
   position: relative;
   margin: 0 auto;
 }
@@ -512,10 +512,9 @@ canvas {
 
 .news-section {
   width: 100%;
-  height: 815px;
-  padding-top: 6px;
+  height: 850px;
   padding-bottom: 40px;
-  border-bottom: 1px solid#424242;
+  border-bottom: 1px solid #424242;
 }
 
 .news-inner {
@@ -524,24 +523,25 @@ canvas {
 }
 
 .news-grid {
-  display: grid;
-  grid-template-columns: 422px 769px;
-  column-gap: 24px;
-  align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .news-left {
+  width: 451px;
   display: flex;
   flex-direction: column;
   gap: 18px;
+  flex-shrink: 0;
 }
 
 .news-right {
-  display: block;
-  position: absolute;
-  right: 0px;
   width: 769px;
   height: 550px;
+  flex-shrink: 0;
+  position: static;
 }
 
 .news-card {
@@ -563,6 +563,7 @@ canvas {
 }
 
 .large-image {
+  width: 769px;
   height: 394px;
 }
 
@@ -579,6 +580,7 @@ canvas {
 }
 
 .news-text-large {
+  width: 769px;
   padding-top: 52px;
 }
 
@@ -604,8 +606,41 @@ canvas {
 }
 
 .news-title-large {
+  width: 769px;
   font-size: 28px;
   line-height: 1.3;
   padding-block: 122px;
 }
+/*familly section*/
+
+.familliy-section {
+  width: var(--max-width);
+  max-width: var(--max-width);
+  height: 326px;
+  padding-block: 64px;
+  position: relative;
+}
+
+.famillysite-wrapper {
+  max-width: 558px;
+  width: 558px;
+  height: 60px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 0px;
+}
+
+.brochure {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #424242;
+}
+
+.familliy {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #424242;
+}
+
 
