@@ -35,3 +35,12 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+.footer {
+  width: var(--max-width);
+  max-width: var(--max-width);
+  height: 402px;
+  background-color: #231815;
+  margin: 0 auto;
+  position: relative;
+}
