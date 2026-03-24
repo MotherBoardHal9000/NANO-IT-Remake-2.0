@@ -492,7 +492,7 @@ canvas {
 }
 
 .showroom {
-  margin-top: 14px;
+  margin-top: 18px;
 }
 
 /*news-letter*/
@@ -617,7 +617,7 @@ canvas {
   width: var(--max-width);
   max-width: var(--max-width);
   height: 326px;
-  padding-block: 64px;
+  padding-block: 44px;
   position: relative;
 }
 
