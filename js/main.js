@@ -1,3 +1,34 @@
+//
+let sideMenu = document.getElementById("sideMenu");
+let popupOn = document.getElementById("gnb_Btn");
+let popupOff = document.getElementById("gnb_Btn_Off");
+let isSel = true;
+
+popupOn.addEventListener("click", onClick);
+popupOff.addEventListener("click", onClick);
+
+function onClick(addEventListener) {
+  console.log("click");
+
+  if (isSel == true) {
+    isSel = false;
+    gsap.to(sideMenu, { right: 0, duration: 0.2 });
+  } else {
+    isSel = true;
+    gsap.to(sideMenu, { right: -680, duration: 0.2 });
+  }
+}
+
+document.getElementById("gnb_Btn").addEventListener("click", function () {
+  document.getElementById("Black-bg-open").style.display = "block";
+});
+
+document.getElementById("gnb_Btn_Off").addEventListener("click", function () {
+  document.getElementById("Black-bg-open").style.display = "none";
+});
+
+
+
 //메인 배너 꽃잎 장식 애니메이션
 gsap.to("#flower-top", {
   y: 84,
