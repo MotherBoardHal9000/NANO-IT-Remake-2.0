@@ -9,6 +9,7 @@
   --max-width: 1240px;
   font-family: "Pretendard", "Noto Sans TC", "맑은 고딕", sans-serif;
 }
+
 #sideMenu {
   width: 600px;
   height: 100vh;
@@ -50,8 +51,6 @@
   left: 0px;
   position: fixed;
 }
-
-
 
 /*hero-section*/
 
