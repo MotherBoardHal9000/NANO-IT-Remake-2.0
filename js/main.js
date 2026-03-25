@@ -27,8 +27,6 @@ document.getElementById("gnb_Btn_Off").addEventListener("click", function () {
   document.getElementById("Black-bg-open").style.display = "none";
 });
 
-
-
 //메인 배너 꽃잎 장식 애니메이션
 gsap.to("#flower-top", {
   y: 84,
