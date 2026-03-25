@@ -9,19 +9,49 @@
   --max-width: 1240px;
   font-family: "Pretendard", "Noto Sans TC", "맑은 고딕", sans-serif;
 }
-
-.mouse__cursor {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  border-radius: 50%;
-  z-index: 1000;
-  user-select: none;
-  pointer-events: none;
+#sideMenu {
+  width: 600px;
+  height: 100vh;
+  background-color: #e50038;
+  color: #ffffff;
+  right: -660px;
+  position: fixed;
+  z-index: 9999;
+  font-size: 400;
+  padding-left: 44px;
+  padding-top: 24px;
 }
+
+#sideMenu ul {
+  color: #ffffff;
+}
+
+.side-ul li {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#gnb_Btn_Off {
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 2.4;
+}
+
+#Black-bg-open {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333333;
+  opacity: 90%;
+  transition: ease-in 0.2s;
+  display: none;
+  z-index: 900;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+
 
 /*hero-section*/
 
